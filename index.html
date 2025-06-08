@@ -5,78 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Downtown Clawson Social District</title>
   <!-- Leaflet CSS -->
-  <link
-  rel="stylesheet"
-  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-/>
-
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
-    body {
-      margin: 0;
-      font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.4;
-      color: #333;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-    header {
-      background: #0066cc;
-      color: #fff;
-      padding: 1rem 1.25rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 1.5rem;
-      letter-spacing: 0.03em;
-    }
-    #map {
-      flex: 1;
-      width: 100%;
-      height: 70vh; /* fallback if flex fails */
-    }
-    .business-list {
-      padding: 1rem 1.25rem;
-      background: #f9f9f9;
-    }
-    .business-list h2 {
-      margin-top: 0;
-      font-size: 1.25rem;
-    }
-    .business-list ul {
-      list-style: none;
-      padding-left: 0;
-      margin: 0;
-    }
-    .business-list li {
-      margin-bottom: 0.5rem;
-    }
-    .business-list a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    .business-list a:hover {
-      text-decoration: underline;
-    }
+    body { margin: 0; font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.4; color: #333; display: flex; flex-direction: column; min-height: 100vh; }
+    header { background: #0066cc; padding: 1rem 1.25rem; text-align: center; }
+    header img { max-width: 100%; height: auto; }
+    #map { flex: 1; width: 100%; height: 70vh; }
+    .business-list { padding: 1rem 1.25rem; background: #f9f9f9; }
+    .business-list h2 { margin-top: 0; font-size: 1.25rem; }
+    .business-list ul { list-style: none; padding-left: 0; margin: 0; }
+    .business-list li { margin-bottom: 0.5rem; }
+    .business-list a { color: #0066cc; text-decoration: none; }
+    .business-list a:hover { text-decoration: underline; }
     @media (min-width: 768px) {
-      main {
-        display: flex;
-        flex-direction: row;
-      }
-      #map {
-        height: calc(100vh - 68px);
-      }
-      .business-list {
-        width: 30%;
-        overflow-y: auto;
-      }
+      main { display: flex; flex-direction: row; }
+      #map { height: calc(100vh - 120px); /* adjust for larger header */ }
+      .business-list { width: 30%; overflow-y: auto; }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Downtown Clawson Social District</h1>
+    <img src="images/header.png" alt="Downtown Clawson Logo" />
   </header>
   <main>
     <div id="map"></div>
@@ -87,96 +37,46 @@
   </main>
 
   <!-- Leaflet JS -->
-  <script
-  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
     const businesses = [
-      {
-        name: "Three Cats",
-        lat: 42.53608,
-        lng: -83.14737,
-        url: "https://threecatscafe.com/cocktails-beer/",
-      },
-      {
-        name: "Mojave Cantina / 54 West Bar",
-        lat: 42.53602,
-        lng: -83.14657,
-        url: "https://www.mojavemi.com/s/Mojave_AllLocations_Drinks_Mar24_NP.pdf",
-      },
-      {
-        name: "PanDeMonium (Coming Soon)",
-        lat: 42.5362,
-        lng: -83.1462,
-        url: "http://www.pandemoniummi.com/",
-      },
-      {
-        name: "Whiskey Taco Foxtrot & Gus' Snug",
-        lat: 42.53514,
-        lng: -83.14655,
-        url: "https://whiskeytacofoxtrotclawson.com/clawson-metro-detroit-whiskey-taco-foxtrot-drink-menu",
-      },
-      {
-        name: "French Toast Bistro (Coming Soon)",
-        lat: 42.5347,
-        lng: -83.1474,
-        url: "https://frenchtoastbistro.com/",
-      },
-      {
-        name: "Tavern On The Main",
-        lat: 42.5337,
-        lng: -83.1466,
-        url: "https://tomclawson.com/",
-      },
-      {
-        name: "Weiss Distilling Co.",
-        lat: 42.53606,
-        lng: -83.14536,
-        url: "https://www.thewdc.com/menu",
-      },
-      {
-        name: "Grand River Brewery",
-        lat: 42.5359,
-        lng: -83.1462,
-        url: "https://www.grandriverbrewery.com/clawson-menus/",
-      },
-      {
-        name: "Old Detroit Burger Bar",
-        lat: 42.53585,
-        lng: -83.1456,
-        url: "https://www.facebook.com/olddetroitburgerbarclawson",
-      },
-      {
-        name: "Renshaw Lounge",
-        lat: 42.5361,
-        lng: -83.1441,
-        url: "https://renshawlounge.com/drink-list/",
-      },
-      {
-        name: "Loc@l",
-        lat: 42.5372,
-        lng: -83.1467,
-        url: "https://www.localclawson.com/",
-      },
+      { name: "Three Cats",           lat: 42.53613, lng: -83.14668, url: "https://threecatscafe.com/cocktails-beer/" },
+      { name: "Mojave Cantina / 54 West Bar", lat: 42.53587, lng: -83.14639, url: "https://www.mojavemi.com/s/Mojave_AllLocations_Drinks_Mar24_NP.pdf" },
+      { name: "PanDeMonium (Coming Soon)", lat: 42.53595, lng: -83.14625, url: "http://www.pandemoniummi.com/" },
+      { name: "Whiskey Taco Foxtrot & Gus' Snug", lat: 42.53550, lng: -83.14630, url: "https://whiskeytacofoxtrotclawson.com/clawson-metro-detroit-whiskey-taco-foxtrot-drink-menu" },
+      { name: "French Toast Bistro (Coming Soon)", lat: 42.53480, lng: -83.14750, url: "https://frenchtoastbistro.com/" },
+      { name: "Tavern On The Main",    lat: 42.53395, lng: -83.14665, url: "https://tomclawson.com/" },
+      { name: "Weiss Distilling Co.",  lat: 42.53610, lng: -83.14575, url: "https://www.thewdc.com/menu" },
+      { name: "Grand River Brewery",   lat: 42.53600, lng: -83.14600, url: "https://www.grandriverbrewery.com/clawson-menus/" },
+      { name: "Old Detroit Burger Bar",lat: 42.53585, lng: -83.14555, url: "https://www.facebook.com/olddetroitburgerbarclawson" },
+      { name: "Renshaw Lounge",        lat: 42.53620, lng: -83.14420, url: "https://renshawlounge.com/drink-list/" },
+      { name: "Loc@l",                lat: 42.53715, lng: -83.14665, url: "https://www.localclawson.com/" }
     ];
 
     // Initialize map
-    const map = L.map("map").setView([42.5359, -83.146], 15);
+    const map = L.map("map").setView([42.5359, -83.1460], 16);
 
     // Add OpenStreetMap tiles
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    // Populate map markers and list
-    const listEl = document.getElementById("businessLinks");
+    // Draw Social District boundaries (green lines)
+    L.polyline([
+      [42.53700, -83.14730],
+      [42.53700, -83.14410]
+    ], { color: 'green', weight: 8 }).addTo(map);
+    L.polyline([
+      [42.53850, -83.14600],
+      [42.53300, -83.14600]
+    ], { color: 'green', weight: 8 }).addTo(map);
 
-    businesses.forEach((b) => {
-      // Marker with popup
+    // Populate markers and list
+    const listEl = document.getElementById("businessLinks");
+    businesses.forEach(b => {
       const marker = L.marker([b.lat, b.lng]).addTo(map);
       marker.bindPopup(`<strong>${b.name}</strong><br><a href="${b.url}" target="_blank">View Menu / Info</a>`);
 
-      // List item
       const li = document.createElement("li");
       li.innerHTML = `<a href="${b.url}" target="_blank">${b.name}</a>`;
       listEl.appendChild(li);
