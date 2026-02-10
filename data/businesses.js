@@ -928,22 +928,6 @@ window.DOWNTOWN_BUSINESSES = [
     "lng": -83.1458239
   },
   {
-    "name": "Sozai",
-    "description": "Hajime Sato, a repeat James Beard Award Nominee in the Outstanding Chef category, is preparing traditional Japanese cuisine focusing on sustainable seafood and locally sourced ingredients. Sozai Restaurant offers a unique dining service with many dishes prepared table side and now offers some menu items on a carryout basis.",
-    "phone": "(248) 677-3232",
-    "address": "449 W. 14 Mile",
-    "cityStateZip": "Clawson, MI 48017",
-    "website": "https://sozairestaurant.com",
-    "facebook": "https://www.facebook.com/SozaiRestaurant/",
-    "instagram": "https://www.instagram.com/sozairestaurant/?hl=en",
-    "publicEmail": "bancho@sozairestaurant.com",
-    "categories": [
-      "Food & Drink"
-    ],
-    "lat": 42.5328966,
-    "lng": -83.1534885
-  },
-  {
     "name": "Tavern On The Main",
     "description": "Friendly service, quality food and a comfortable setting",
     "phone": "(248) 588-1696",
