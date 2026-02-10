@@ -1,86 +1,191 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Downtown Clawson Social District</title>
-  <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <style>
-    body { margin: 0; font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.4; color: #333; display: flex; flex-direction: column; min-height: 100vh; }
-    header { background: #0066cc; padding: 1rem 1.25rem; text-align: center; }
-    header img { max-width: 100%; height: auto; }
-    #map { flex: 1; width: 100%; height: 70vh; }
-    .business-list { padding: 1rem 1.25rem; background: #f9f9f9; }
-    .business-list h2 { margin-top: 0; font-size: 1.25rem; }
-    .business-list ul { list-style: none; padding-left: 0; margin: 0; }
-    .business-list li { margin-bottom: 0.5rem; }
-    .business-list a { color: #0066cc; text-decoration: none; }
-    .business-list a:hover { text-decoration: underline; }
-    @media (min-width: 768px) {
-      main { display: flex; flex-direction: row; }
-      #map { height: calc(100vh - 120px); /* adjust for larger header */ }
-      .business-list { width: 30%; overflow-y: auto; }
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Downtown Clawson | Downtown Development Authority</title>
+  <meta
+    name="description"
+    content="Downtown Clawson DDA official website: business directory, happenings, social district information, and downtown contact details."
+  />
+  <meta property="og:title" content="Downtown Clawson" />
+  <meta property="og:description" content="Discover businesses, events, and opportunities in Downtown Clawson." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.downtownclawson.com/" />
+  <meta property="og:image" content="images/header.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="images/brand-mark.svg.png" type="image/png" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Downtown Clawson Development Authority",
+      "url": "https://www.downtownclawson.com/",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "425 N Main St",
+        "addressLocality": "Clawson",
+        "addressRegion": "MI",
+        "postalCode": "48017",
+        "addressCountry": "US"
+      },
+      "email": "ddadirector@cityofclawson.com",
+      "telephone": "+1-248-435-4500",
+      "sameAs": [
+        "https://www.facebook.com/dtclawson/",
+        "https://www.instagram.com/dtclawson"
+      ]
     }
-  </style>
+  </script>
 </head>
 <body>
-  <header>
-    <img src="images/header.png" alt="Downtown Clawson Logo" />
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="shell header-bar">
+      <a class="brand" href="index.html" aria-label="Downtown Clawson home">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="images/brand-mark.svg.png" alt="" />
+        </span>
+        <span class="brand-text">
+          <strong>Downtown Clawson</strong>
+          <span>Downtown Development Authority</span>
+        </span>
+      </a>
+
+      <div class="nav-wrap">
+        <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" class="site-nav" data-nav aria-label="Primary">
+          <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="business-directory.html">Business Directory</a></li>
+            <li><a href="happenings.html">Happenings</a></li>
+            <li><a href="about-dda.html">About DDA</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-actions" aria-label="Social links">
+        <a class="icon-link" href="https://www.facebook.com/dtclawson/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="images/facebook.svg" alt="" /></a>
+        <a class="icon-link" href="https://www.instagram.com/dtclawson" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="images/instagram.svg" alt="" /></a>
+      </div>
+    </div>
   </header>
-  <main>
-    <div id="map"></div>
-    <section class="business-list">
-      <h2>Participating Businesses</h2>
-      <ul id="businessLinks"></ul>
+
+  <main id="main">
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div class="hero-copy reveal">
+          <h1>Welcome to Downtown Clawson</h1>
+          <p>
+            Independent shops, James Beard-nominated restaurants, a magic shop, a distillery, and a weekend farmers market
+            &mdash; all on a few walkable blocks of Main Street and 14 Mile Road.
+          </p>
+          <p>
+            This is Clawson's Little City, Big Heart district. Come grab a coffee, browse the shops, and see what's new.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="happenings.html">See Happenings</a>
+            <a class="btn btn-primary" href="business-directory.html">Find a Business</a>
+          </div>
+        </div>
+
+        <div class="hero-media reveal">
+          <img src="images/header.png" alt="Downtown Clawson logo" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell">
+        <div class="quick-links">
+          <article class="quick-card reveal">
+            <h3>Business Directory</h3>
+            <p>Browse local dining, retail, services, and wellness businesses in one place.</p>
+            <a href="business-directory.html">Browse Directory</a>
+          </article>
+
+          <article class="quick-card reveal">
+            <h3>What's Happening</h3>
+            <p>Find annual events, Saturday Clawson Market details, and Restaurant Week updates.</p>
+            <a href="happenings.html">View Happenings</a>
+          </article>
+
+          <article class="quick-card reveal">
+            <h3>Get In Touch</h3>
+            <p>Contact the DDA for downtown questions, opportunities, and updates.</p>
+            <a href="contact.html">Contact DDA</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell">
+        <div class="cards">
+          <article class="card reveal">
+            <h3>Saturday Clawson Market</h3>
+            <p class="meta">On listed market dates • 10 AM - 2 PM</p>
+            <p>Corner of S. Main and 14 Mile Rd.</p>
+            <p><strong>2026 market dates:</strong> May 16, June 13, June 27, July 11, July 25, Aug. 15.</p>
+            <p><a href="https://www.cityofclawson.com/your_community/community_events/docs/Saturday_Clawson_Market_2026_Signup.pdf" target="_blank" rel="noopener noreferrer">Vendor Application (PDF)</a></p>
+            <p><a href="saturday-clawson-market.html">View 2026 Market Page</a></p>
+          </article>
+
+          <article class="card reveal">
+            <h3>Clawson Restaurant Week</h3>
+            <p class="meta">March 22&ndash;28, 2026</p>
+            <p>Featured specials from $15&ndash;$25 at participating restaurants. Passport stamp program with prizes. Part of the USA250 celebration.</p>
+            <p><a href="restaurant-week.html">View Restaurant Week</a></p>
+          </article>
+
+          <article class="card reveal">
+            <h3>DDA Meetings</h3>
+            <p class="meta">Third Wednesday of each month • 8 AM</p>
+            <p>Clawson City Hall, open to the public. Help shape the future of downtown Clawson.</p>
+            <a href="about-dda.html">About the DDA</a>
+          </article>
+        </div>
+      </div>
     </section>
   </main>
 
-  <!-- Leaflet JS -->
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script>
-    const businesses = [
-      { name: "Three Cats",           lat: 42.53613, lng: -83.14668, url: "https://threecatscafe.com/cocktails-beer/" },
-      { name: "Mojave Cantina / 54 West Bar", lat: 42.53587, lng: -83.14639, url: "https://www.mojavemi.com/s/Mojave_AllLocations_Drinks_Mar24_NP.pdf" },
-      { name: "PanDeMonium (Coming Soon)", lat: 42.53595, lng: -83.14625, url: "http://www.pandemoniummi.com/" },
-      { name: "Whiskey Taco Foxtrot & Gus' Snug", lat: 42.53550, lng: -83.14630, url: "https://whiskeytacofoxtrotclawson.com/clawson-metro-detroit-whiskey-taco-foxtrot-drink-menu" },
-      { name: "French Toast Bistro (Coming Soon)", lat: 42.53480, lng: -83.14750, url: "https://frenchtoastbistro.com/" },
-      { name: "Tavern On The Main",    lat: 42.53395, lng: -83.14665, url: "https://tomclawson.com/" },
-      { name: "Weiss Distilling Co.",  lat: 42.53610, lng: -83.14575, url: "https://www.thewdc.com/menu" },
-      { name: "Grand River Brewery",   lat: 42.53600, lng: -83.14600, url: "https://www.grandriverbrewery.com/clawson-menus/" },
-      { name: "Old Detroit Burger Bar",lat: 42.53585, lng: -83.14555, url: "https://www.facebook.com/olddetroitburgerbarclawson" },
-      { name: "Renshaw Lounge",        lat: 42.53620, lng: -83.14420, url: "https://renshawlounge.com/drink-list/" },
-      { name: "Loc@l",                lat: 42.53715, lng: -83.14665, url: "https://www.localclawson.com/" }
-    ];
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true"><img src="images/brand-mark.svg.png" alt="" /></span>
+        <div>
+          <strong>Downtown Clawson DDA</strong>
+          <p>Little City, Big Heart.</p>
+        </div>
+      </div>
 
-    // Initialize map
-    const map = L.map("map").setView([42.5359, -83.1460], 16);
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="business-directory.html">Business Directory</a>
+        <a href="happenings.html">Happenings</a>
+        <a href="about-dda.html">About DDA</a>
+        <a href="contact.html">Contact</a>
+      </nav>
 
-    // Add OpenStreetMap tiles
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
+      <div class="footer-contact">
+        <a href="tel:+12484354500">248-435-4500 ext. 110</a>
+        <a href="mailto:ddadirector@cityofclawson.com">ddadirector@cityofclawson.com</a>
+        <a href="https://maps.google.com/?q=425+N+Main+St,+Clawson,+MI+48017" target="_blank" rel="noopener noreferrer">425 N Main St, Clawson, MI 48017</a>
+        <a href="https://www.facebook.com/dtclawson/" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://www.instagram.com/dtclawson" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="shell">&copy; <span data-year></span> Downtown Clawson DDA. All rights reserved.</div>
+    </div>
+  </footer>
 
-    // Draw Social District boundaries (green lines)
-    L.polyline([
-      [42.53700, -83.14730],
-      [42.53700, -83.14410]
-    ], { color: 'green', weight: 8 }).addTo(map);
-    L.polyline([
-      [42.53850, -83.14600],
-      [42.53300, -83.14600]
-    ], { color: 'green', weight: 8 }).addTo(map);
+  <nav class="mobile-actions" aria-label="Quick actions">
+    <a href="business-directory.html"><span>Dir</span>Businesses</a>
+    <a href="happenings.html"><span>Evt</span>Happenings</a>
+    <a href="contact.html"><span>Get</span>Contact</a>
+  </nav>
 
-    // Populate markers and list
-    const listEl = document.getElementById("businessLinks");
-    businesses.forEach(b => {
-      const marker = L.marker([b.lat, b.lng]).addTo(map);
-      marker.bindPopup(`<strong>${b.name}</strong><br><a href="${b.url}" target="_blank">View Menu / Info</a>`);
-
-      const li = document.createElement("li");
-      li.innerHTML = `<a href="${b.url}" target="_blank">${b.name}</a>`;
-      listEl.appendChild(li);
-    });
-  </script>
+  <script src="assets/js/site.js" defer></script>
 </body>
 </html>

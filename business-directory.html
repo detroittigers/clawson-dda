@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Business Directory | Downtown Clawson</title>
+  <meta
+    name="description"
+    content="Browse Downtown Clawson businesses by category and search the directory for dining, shopping, beauty, and services."
+  />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="images/brand-mark.svg.png" type="image/png" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="shell header-bar">
+      <a class="brand" href="index.html" aria-label="Downtown Clawson home">
+        <span class="brand-mark" aria-hidden="true"><img src="images/brand-mark.svg.png" alt="" /></span>
+        <span class="brand-text">
+          <strong>Downtown Clawson</strong>
+          <span>Downtown Development Authority</span>
+        </span>
+      </a>
+
+      <div class="nav-wrap">
+        <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" class="site-nav" data-nav aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="business-directory.html" aria-current="page">Business Directory</a></li>
+            <li><a href="happenings.html">Happenings</a></li>
+            <li><a href="about-dda.html">About DDA</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-actions" aria-label="Social links">
+        <a class="icon-link" href="https://www.facebook.com/dtclawson/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="images/facebook.svg" alt="" /></a>
+        <a class="icon-link" href="https://www.instagram.com/dtclawson" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="images/instagram.svg" alt="" /></a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="shell">
+        <h1>Business Directory</h1>
+        <p>
+          About 80 businesses along Main Street and 14 Mile Road &mdash; restaurants, shops, salons, and professional
+          services. Search by name or filter by category.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 0.5rem;">
+      <div class="shell">
+        <div class="tools" aria-label="Directory filters">
+          <div>
+            <label for="business-search">Search businesses</label>
+            <input id="business-search" type="search" placeholder="Search by name, type, or keyword" data-business-search />
+          </div>
+          <div>
+            <label for="business-category">Category</label>
+            <select id="business-category" data-business-category>
+              <option value="">All Categories</option>
+            </select>
+          </div>
+          <div>
+            <label for="business-sort">Sort</label>
+            <select id="business-sort" data-business-sort>
+              <option value="alpha">A to Z</option>
+              <option value="category">Category then Name</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="dir-layout">
+          <section>
+            <p class="dir-summary" data-business-count>Loading businesses...</p>
+            <div class="cards" data-business-grid></div>
+          </section>
+
+          <aside class="map-card">
+            <h2>Visit Downtown</h2>
+            <p>Use this map to get directions to downtown Clawson.</p>
+            <iframe
+              title="Map of Downtown Clawson"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=14+Mile+Rd+and+Main+St,+Clawson,+MI&output=embed"
+            ></iframe>
+            <p class="notice">Municipal parking lots are available throughout downtown.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true"><img src="images/brand-mark.svg.png" alt="" /></span>
+        <div>
+          <strong>Downtown Clawson DDA</strong>
+          <p>Little City, Big Heart.</p>
+        </div>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="business-directory.html">Business Directory</a>
+        <a href="happenings.html">Happenings</a>
+        <a href="about-dda.html">About DDA</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="footer-contact">
+        <a href="tel:+12484354500">248-435-4500 ext. 110</a>
+        <a href="mailto:ddadirector@cityofclawson.com">ddadirector@cityofclawson.com</a>
+        <a href="https://maps.google.com/?q=425+N+Main+St,+Clawson,+MI+48017" target="_blank" rel="noopener noreferrer">425 N Main St, Clawson, MI 48017</a>
+        <a href="https://www.facebook.com/dtclawson/" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://www.instagram.com/dtclawson" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="shell">&copy; <span data-year></span> Downtown Clawson DDA. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <nav class="mobile-actions" aria-label="Quick actions">
+    <a href="business-directory.html" aria-current="page"><span>Dir</span>Businesses</a>
+    <a href="happenings.html"><span>Evt</span>Happenings</a>
+    <a href="contact.html"><span>Get</span>Contact</a>
+  </nav>
+
+  <script src="assets/js/site.js" defer></script>
+  <script src="data/businesses.js"></script>
+  <script src="assets/js/directory.js" defer></script>
+</body>
+</html>
