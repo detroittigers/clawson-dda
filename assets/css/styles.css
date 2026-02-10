@@ -421,6 +421,7 @@ main {
 .grid-2 {
   display: grid;
   gap: 1rem;
+  align-items: start;
 }
 
 .cards {
@@ -604,6 +605,7 @@ main {
 .callout-grid {
   display: grid;
   gap: 0.9rem;
+  align-items: start;
 }
 
 .media-card {
@@ -641,6 +643,91 @@ main {
 .about-grid {
   display: grid;
   gap: 1rem;
+  align-items: start;
+}
+
+.section-tight {
+  padding: 0.65rem 0;
+}
+
+.about-page .page-head {
+  padding: var(--space-lg) 0 var(--space-xs);
+}
+
+.about-page .page-head p {
+  max-width: 70ch;
+}
+
+.about-page .section.section-tight:first-of-type {
+  padding-top: 0;
+}
+
+.about-page .about-pills {
+  margin-top: 0.9rem;
+}
+
+.about-photo-grid .media-card img {
+  height: clamp(250px, 34vw, 390px);
+  object-fit: cover;
+}
+
+.about-photo-grid .about-photo-board {
+  object-position: center 36%;
+}
+
+.mainstreet-card {
+  padding: 1rem;
+}
+
+.mainstreet-card-inner {
+  display: grid;
+  gap: 1rem;
+  align-items: center;
+}
+
+.mainstreet-card-inner img {
+  width: min(240px, 100%);
+  margin: 0 auto;
+}
+
+.mainstreet-card-inner h2 {
+  margin-bottom: 0.45rem;
+}
+
+.mainstreet-card-inner p {
+  color: var(--ink-700);
+}
+
+.strategic-plan-card {
+  padding: 1.2rem;
+}
+
+.strategic-plan-card h2 {
+  margin-bottom: 0.45rem;
+}
+
+.strategic-plan-card p {
+  margin: 0;
+  max-width: 68ch;
+  color: var(--ink-700);
+}
+
+.strategic-plan-card .market-actions {
+  margin-top: 0.95rem;
+}
+
+.happenings-feature-grid {
+  align-items: stretch;
+}
+
+.happenings-feature-grid > .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.happenings-feature-grid > .card .market-actions {
+  margin-top: auto;
 }
 
 .about-list {
@@ -850,6 +937,35 @@ main {
 
   .about-grid {
     grid-template-columns: 1.1fr 0.9fr;
+  }
+
+  .mainstreet-card-inner {
+    grid-template-columns: 240px 1fr;
+    gap: 1.25rem;
+  }
+
+  .mainstreet-card-inner img {
+    margin: 0;
+  }
+
+  .strategic-plan-card {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.75rem 1.2rem;
+    align-items: center;
+  }
+
+  .strategic-plan-card h2,
+  .strategic-plan-card p {
+    grid-column: 1;
+  }
+
+  .strategic-plan-card .market-actions {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    margin-top: 0;
+    align-self: center;
+    justify-content: flex-end;
   }
 
   .contact-grid {
