@@ -24,7 +24,7 @@ Static website for the Downtown Clawson Development Authority (DDA) in Clawson, 
 - No framework, no bundler, no dependencies
 
 ## Deployment
-- **Preview (S3):** `aws s3 sync . s3://clawson-dda-preview --exclude ".git/*" --exclude ".gitignore" --exclude "README.md" --exclude ".claude/*" --profile ride-ready`
+- **Preview (S3):** `aws s3 sync . s3://clawson-dda-preview --exclude ".git/*" --exclude ".gitignore" --exclude "README.md" --exclude ".claude/*" --exclude "AGENTS.md" --exclude "CLAUDE.md" --profile ride-ready`
 - **Production:** TBD — will likely use a custom domain with S3 + CloudFront
 - Do NOT use GitHub Pages (conflicts with rideready.app custom domain on the GitHub account)
 

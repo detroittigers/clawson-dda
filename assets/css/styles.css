@@ -1154,8 +1154,9 @@ body.gallery-open {
 
 .footer-grid {
   display: grid;
-  gap: 1rem;
-  padding: 1.3rem 0 1.6rem;
+  gap: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.8rem;
 }
 
 .footer-brand {

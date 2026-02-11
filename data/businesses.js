@@ -3,7 +3,7 @@ window.DOWNTOWN_BUSINESSES = [
     "name": "Old Port Inn",
     "description": "Family dining and daily homemade specials",
     "phone": "(248) 588-2660",
-    "address": "441 E 14 Mile Rd",
+    "address": "278 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "https://www.facebook.com/Old-Port-Family-Restaurant-268370397358313/",
@@ -12,14 +12,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Food & Drink"
     ],
-    "lat": 42.5330686,
-    "lng": -83.1426614
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Biggby Coffee",
     "description": "Regional coffeehouse chain",
     "phone": "(248) 632-1227",
-    "address": "431 W 14 Mile Rd",
+    "address": "208 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://www.biggby.com/locations/?fyb=48017",
     "facebook": "https://www.facebook.com/BiggbyCoffee.Bhappy/",
@@ -28,8 +28,8 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Food & Drink"
     ],
-    "lat": 42.5331171,
-    "lng": -83.1438591
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Renshaw Lounge",
@@ -44,14 +44,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Food & Drink"
     ],
-    "lat": 42.5328771,
-    "lng": -83.1436039
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Main Street Liquor",
     "description": "Beer, wine, spirits, cigars, and a fresh deli counter",
     "phone": "(248) 588-2576",
-    "address": "26 N Main St",
+    "address": "243 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://www.restaurantji.com/mi/clawson/main-street-liquor-/",
     "facebook": "",
@@ -60,14 +60,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Food & Drink"
     ],
-    "lat": 42.5338156,
-    "lng": -83.1433525
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Green Light",
     "description": "Body piercing studio",
-    "phone": "",
-    "address": "26 N Main St",
+    "phone": "(248) 951-2109",
+    "address": "259 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://www.greenlightbodypiercing.com/",
     "facebook": "",
@@ -83,7 +83,7 @@ window.DOWNTOWN_BUSINESSES = [
     "name": "Armando's Pizza",
     "description": "Pizza shop",
     "phone": "",
-    "address": "334 W 14 Mile Rd",
+    "address": "204 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -98,8 +98,8 @@ window.DOWNTOWN_BUSINESSES = [
   {
     "name": "Red & The Wolf",
     "description": "Restaurant and bar",
-    "phone": "",
-    "address": "1 S Main St",
+    "phone": "(248) 439-9653",
+    "address": "110 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -115,7 +115,7 @@ window.DOWNTOWN_BUSINESSES = [
     "name": "Noori Pocha",
     "description": "Noori Chicken is the takeout side of the business while Noori Pocha offers a sit-down experience for great Korean meals",
     "phone": "(248) 850-7512",
-    "address": "34 N Main St",
+    "address": "1 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://noorichicken.com/",
     "facebook": "",
@@ -124,14 +124,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Food & Drink"
     ],
-    "lat": 42.5332593,
-    "lng": -83.1458448
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Old Detroit Burger Bar",
     "description": "Massive tasty burgers, salads, sandwiches & cold brews",
     "phone": "(248) 268-1864",
-    "address": "40 N Main St",
+    "address": "27 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://olddetroitburgerbar.com",
     "facebook": "https://www.facebook.com/olddetroitburgerbarclawson",
@@ -140,9 +140,10 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Food & Drink"
     ],
-    "lat": 42.5337732,
-    "lng": -83.1455097
+    "lat": null,
+    "lng": null
   },
+  /* 
   {
     "name": "Fairway Packing Co.",
     "description": "Specialty meats and provisions",
@@ -159,11 +160,12 @@ window.DOWNTOWN_BUSINESSES = [
     "lat": null,
     "lng": null
   },
+  */
   {
     "name": "Grand River Brewery",
     "description": "Quality food and brews with a true farm to table ethic",
     "phone": "(248) 284-4171",
-    "address": "117 W 14 Mile Rd",
+    "address": "1 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://grandriverbrewery.com",
     "facebook": "https://www.facebook.com/GRBclawson",
@@ -172,14 +174,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Food & Drink"
     ],
-    "lat": 42.533722,
-    "lng": -83.1459286
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Tavern on Main",
     "description": "Friendly service, quality food and a comfortable setting",
     "phone": "(248) 588-1696",
-    "address": "38 N Main St",
+    "address": "235 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://www.tomclawson.com/",
     "facebook": "https://www.facebook.com/Tavern-on-the-Main-980343025349098/",
@@ -188,14 +190,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Food & Drink"
     ],
-    "lat": 42.5316523,
-    "lng": -83.145761
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Woodpile BBQ Shack",
     "description": "Barbecue restaurant",
-    "phone": "",
-    "address": "52 N Main St",
+    "phone": "(248) 565-8149",
+    "address": "303 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://woodpilebbqshack.com",
     "facebook": "https://www.facebook.com/woodpilebbqshack",
@@ -210,8 +212,8 @@ window.DOWNTOWN_BUSINESSES = [
   {
     "name": "French Toast Bistro",
     "description": "Breakfast and brunch restaurant",
-    "phone": "",
-    "address": "42 N Main St",
+    "phone": "(248) 268-1658",
+    "address": "236 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -223,6 +225,7 @@ window.DOWNTOWN_BUSINESSES = [
     "lat": null,
     "lng": null
   },
+  /*
   {
     "name": "Italian Restaurant (Italian American Club)",
     "description": "Italian dining at the Italian American Club",
@@ -239,11 +242,12 @@ window.DOWNTOWN_BUSINESSES = [
     "lat": null,
     "lng": null
   },
+  */
   {
     "name": "Dairy-O",
     "description": "Soft-serve ice cream and frozen treats",
-    "phone": "",
-    "address": "21 S Main St",
+    "phone": "(248) 916-7700",
+    "address": "208 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -259,7 +263,7 @@ window.DOWNTOWN_BUSINESSES = [
     "name": "Gus' Snug Irish Pub",
     "description": "At Gus's Snug their menu tells the story of Ireland's rich history and culture.",
     "phone": "(248) 607-3631",
-    "address": "38 N Main St",
+    "address": "38 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://gussnug.com",
     "facebook": "https://www.facebook.com/gussnug",
@@ -268,14 +272,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Food & Drink"
     ],
-    "lat": 42.532746,
-    "lng": -83.146463
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Whiskey Taco Foxtrot",
     "description": "Taqueria and whiskey bar serving unique tacos and artfully crafted cocktails",
-    "phone": "",
-    "address": "56 N Main St",
+    "phone": "(248) 629-7067",
+    "address": "28 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://whiskeytacofoxtrotclawson.com",
     "facebook": "https://www.facebook.com/wtfclawson",
@@ -291,7 +295,7 @@ window.DOWNTOWN_BUSINESSES = [
     "name": "Mojave Cantina",
     "description": "Fresh Tex-Mex cuisine and mouth-watering signature drinks!",
     "phone": "(248) 291-5653",
-    "address": "31 S Main St",
+    "address": "48 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://www.mojavemi.com",
     "facebook": "https://www.facebook.com/MojaveCantinaWhiteLake",
@@ -300,14 +304,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Food & Drink"
     ],
-    "lat": 42.5337209,
-    "lng": -83.1471851
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Eat Well Meal Prep",
     "description": "Prepared meals for order and pickup",
-    "phone": "",
-    "address": "31 N Main St",
+    "phone": "(248) 734-2166",
+    "address": "139 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -323,7 +327,7 @@ window.DOWNTOWN_BUSINESSES = [
     "name": "House of Optical",
     "description": "Eye exams, lab and frames",
     "phone": "(248) 435-3400",
-    "address": "31 S Main St",
+    "address": "250 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://houseofoptical.com/",
     "facebook": "https://www.facebook.com/GlassesByHouse/",
@@ -332,14 +336,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.5330987,
-    "lng": -83.143164
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Mada Hair",
     "description": "Full service beauty salon",
     "phone": "(248) 307-7103",
-    "address": "7 S Main St",
+    "address": "247 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "https://www.facebook.com/MADAHAIRSALON",
@@ -348,14 +352,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.5337318,
-    "lng": -83.1432269
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Ophema",
     "description": "Organic farm and juicery",
-    "phone": "",
-    "address": "11 S Main St",
+    "phone": "(248) 822-9999",
+    "address": "126 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://gotsprouts.com/",
     "facebook": "",
@@ -371,7 +375,7 @@ window.DOWNTOWN_BUSINESSES = [
     "name": "Pure Root Wellness",
     "description": "Nurse Practitioner and Holistic Nutritionist offering Functional Health Consulting, IV Hydration, and Vitamin Injections",
     "phone": "(248) 915-4766",
-    "address": "13 N Main St",
+    "address": "12 Church Ave",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "https://www.facebook.com/PureRootWellness33",
@@ -380,14 +384,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.5331378,
-    "lng": -83.1451938
+    "lat": null,
+    "lng": null
   },
   {
-    "name": "Body By Giuliani",
+    "name": "Body By Giuliana",
     "description": "Personal Training",
     "phone": "(248) 909-8425",
-    "address": "431 W 14 Mile Rd",
+    "address": "14 Church St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://bodybygiuliana.com",
     "facebook": "",
@@ -396,14 +400,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.5331272,
-    "lng": -83.1451996
+    "lat": null,
+    "lng": null
   },
   {
     "name": "The Brand",
     "description": "Full service men's salon",
     "phone": "(248) 291-6098",
-    "address": "1 S Main St",
+    "address": "42 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -412,9 +416,10 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.5331479,
-    "lng": -83.1452584
+    "lat": null,
+    "lng": null
   },
+  /*
   {
     "name": "Vintage Vault",
     "description": "Vintage and secondhand goods",
@@ -431,11 +436,12 @@ window.DOWNTOWN_BUSINESSES = [
     "lat": null,
     "lng": null
   },
+  */
   {
     "name": "Sabbath Coffee Roasters",
     "description": "Coffee roasters",
-    "phone": "",
-    "address": "15 N Main St",
+    "phone": "(309) 722-2284",
+    "address": "24 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://sabbathcoffeeroasters.com",
     "facebook": "https://www.facebook.com/sabbathcoffeeroasters",
@@ -451,7 +457,7 @@ window.DOWNTOWN_BUSINESSES = [
     "name": "Weiss Distilling Company",
     "description": "Distillery and Speakeasy-style tasting room",
     "phone": "(929) 484-3932",
-    "address": "35 E 14 Mile Rd",
+    "address": "34 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://www.thewdc.com",
     "facebook": "https://www.facebook.com/weissdistillingco/",
@@ -460,14 +466,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Food & Drink"
     ],
-    "lat": 42.533252,
-    "lng": -83.145405
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Ace Hardware (Clawson Ace)",
     "description": "Hardware store and more",
     "phone": "(248) 588-4200",
-    "address": "1035 W 14 Mile Rd",
+    "address": "149 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://www.greatlakesace.com",
     "facebook": "https://www.facebook.com/ClawsonAceHardware/",
@@ -476,14 +482,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.5339624,
-    "lng": -83.1442112
+    "lat": null,
+    "lng": null
   },
   {
     "name": "HOTWORX",
     "description": "HOTWORX offers members unlimited, 24-hour access to a variety of virtually instructed, infrared sauna workouts.",
     "phone": "(248) 219-5990",
-    "address": "633 W 14 Mile Rd",
+    "address": "147 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://www.hotworx.net/studio/clawson-downtown",
     "facebook": "https://www.facebook.com/HOTWORXClawsonDowntown",
@@ -492,14 +498,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.5336994,
-    "lng": -83.144495
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Exclusive Nails",
     "description": "Nail salon",
-    "phone": "",
-    "address": "431 W 14 Mile Rd",
+    "phone": "(248) 404-7796",
+    "address": "145 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -514,8 +520,8 @@ window.DOWNTOWN_BUSINESSES = [
   {
     "name": "Noble Village",
     "description": "Shop on South Main",
-    "phone": "",
-    "address": "5 S Main St",
+    "phone": "(248) 585-2314",
+    "address": "45 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -531,7 +537,7 @@ window.DOWNTOWN_BUSINESSES = [
     "name": "Salon Oggi",
     "description": "Hair stylists and color specialists",
     "phone": "(248) 298-3839",
-    "address": "14 N Main St",
+    "address": "13 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://www.salonoggi.com",
     "facebook": "https://www.facebook.com/salonoggi",
@@ -540,14 +546,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.5331245,
-    "lng": -83.1458239
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Blumz...by JRDesigns",
     "description": "Florist and event design studio",
-    "phone": "",
-    "address": "560 W 14 Mile Rd",
+    "phone": "(248) 398-5130",
+    "address": "29 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -562,7 +568,7 @@ window.DOWNTOWN_BUSINESSES = [
   {
     "name": "Central 41",
     "description": "Retail shop on South Main",
-    "phone": "",
+    "phone": "(734) 673-2892",
     "address": "41 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
@@ -579,7 +585,7 @@ window.DOWNTOWN_BUSINESSES = [
     "name": "Michael's Liquor",
     "description": "Specialty beers & liquors, grocery and deli too!",
     "phone": "(248) 589-2980",
-    "address": "905 W 14 Mile Rd",
+    "address": "215 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -588,9 +594,10 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.5319524,
-    "lng": -83.1456773
+    "lat": null,
+    "lng": null
   },
+  /*
   {
     "name": "Bramble & Thorne",
     "description": "Tattoo studio",
@@ -607,11 +614,12 @@ window.DOWNTOWN_BUSINESSES = [
     "lat": null,
     "lng": null
   },
+  */
   {
     "name": "R Collective",
     "description": "Affordable luxury in haircare",
     "phone": "(248) 397-8701",
-    "address": "19 N Main St",
+    "address": "122 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://www.rcollectivesalon.com",
     "facebook": "https://www.facebook.com/rcollectivesalon",
@@ -620,14 +628,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.5322236,
-    "lng": -83.1467035
+    "lat": null,
+    "lng": null
   },
   {
     "name": "TwyFit",
     "description": "Personal and Group Fitness Coaching",
-    "phone": "(248) 291-5096",
-    "address": "20 S Main St",
+    "phone": "(248) 955-2953",
+    "address": "112 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://twyfit.com",
     "facebook": "https://www.facebook.com/TwyFit1",
@@ -636,14 +644,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.5324222,
-    "lng": -83.1466109
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Laundry Palace",
     "description": "Full service laundry and dry cleaning",
     "phone": "(248) 435-3010",
-    "address": "611 W 14 Mile Rd",
+    "address": "140 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://www.laundry-palace.com",
     "facebook": "https://www.facebook.com/thelaundrypalace/",
@@ -652,14 +660,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.5320889,
-    "lng": -83.1466825
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Clawson Antiques",
     "description": "Wide range and always changing selection of antique and vintage finds",
     "phone": "(248) 439-1364",
-    "address": "17 S Main St",
+    "address": "118 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "https://www.facebook.com/ClawsonAntiquesMichigan/",
@@ -668,14 +676,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.5322849,
-    "lng": -83.1466981
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Khave",
     "description": "Specialty coffee, tea and pastries",
     "phone": "(248) 979-3589",
-    "address": "27 N Main St",
+    "address": "22 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://kahveclawson.com",
     "facebook": "https://www.facebook.com/kahvehouse/",
@@ -684,9 +692,10 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Food & Drink"
     ],
-    "lat": 42.5330381,
-    "lng": -83.1463979
+    "lat": null,
+    "lng": null
   },
+  /*
   {
     "name": "Skate Shop",
     "description": "Skateboard gear and accessories",
@@ -703,11 +712,12 @@ window.DOWNTOWN_BUSINESSES = [
     "lat": null,
     "lng": null
   },
+  */
   {
     "name": "Jolie Nails",
     "description": "Nail salon and pedicures",
     "phone": "(248) 288-6243",
-    "address": "431 W 14 Mile Rd",
+    "address": "2 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -716,14 +726,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.5332937,
-    "lng": -83.1464595
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Warp9",
     "description": "Comics and Collectables",
     "phone": "(248) 288-5699",
-    "address": "103 W 14 Mile Rd",
+    "address": "21 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://www.warp9comics.com",
     "facebook": "",
@@ -732,14 +742,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.5332598,
-    "lng": -83.1466871
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Eclectic Home",
     "description": "Home goods and decor",
-    "phone": "",
-    "address": "25 N Main St",
+    "phone": "(248) 798-5080",
+    "address": "133 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -755,7 +765,7 @@ window.DOWNTOWN_BUSINESSES = [
     "name": "Three Cats Cafe & Boutique",
     "description": "American-style cuisine in the form of small plates.",
     "phone": "(248) 288-4858",
-    "address": "5 N Main St",
+    "address": "116 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://threecatscafe.com/",
     "facebook": "https://www.facebook.com/threecatsrestaurant/",
@@ -764,8 +774,8 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Food & Drink"
     ],
-    "lat": 42.5337961,
-    "lng": -83.1484417
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Leon & Lulu",
@@ -780,14 +790,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.533888,
-    "lng": -83.1480647
+    "lat": null,
+    "lng": null
   },
   {
     "name": "PanDeMonium",
     "description": "Filipino food to uplift the community",
     "phone": "",
-    "address": "31 N Main St",
+    "address": "84 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "https://www.facebook.com/pandemoniummi",
@@ -802,8 +812,8 @@ window.DOWNTOWN_BUSINESSES = [
   {
     "name": "Fabricare Cleaners",
     "description": "Dry cleaning and garment care",
-    "phone": "",
-    "address": "620 W 14 Mile Rd",
+    "phone": "(248) 435-6455",
+    "address": "107 N Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -819,7 +829,7 @@ window.DOWNTOWN_BUSINESSES = [
     "name": "Clawson Jewelers",
     "description": "Fine jewelry and watch repair",
     "phone": "(248) 439-0883",
-    "address": "7 N Main St",
+    "address": "26 N Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://clawsonjewelers.com",
     "facebook": "https://www.facebook.com/clawsonjewelers/",
@@ -828,14 +838,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.5338161,
-    "lng": -83.1459076
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Main Street Rocks",
     "description": "A place for those with a passion for crystals, gems and minerals.",
-    "phone": "(248) 321-7757",
-    "address": "29 N Main St",
+    "phone": "(517) 551-0163",
+    "address": "25 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://www.mainstreetrocks.com",
     "facebook": "https://www.facebook.com/MainStreetRocksClawson",
@@ -844,14 +854,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.5332884,
-    "lng": -83.1467246
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Lewton's Sports Cards & Collectibles",
     "description": "Sports cards and collectibles",
-    "phone": "",
-    "address": "35 S Main St",
+    "phone": "(248) 291-6265",
+    "address": "18 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "https://www.facebook.com/Lewtonscards",
@@ -867,7 +877,7 @@ window.DOWNTOWN_BUSINESSES = [
     "name": "Wunderground",
     "description": "Magic shop since 1971 carrying tricks, juggling equipment, novelties, costumes, puppets, and puzzles, plus classes and performer booking",
     "phone": "(248) 280-5925",
-    "address": "33 N Main St",
+    "address": "16 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://www.wundergroundmagicshop.com",
     "facebook": "https://www.facebook.com/WundergroundMagic/",
@@ -876,14 +886,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.5331487,
-    "lng": -83.1464892
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Moxxi Studio Sculpt",
     "description": "Body sculpting and aesthetics studio",
-    "phone": "",
-    "address": "12 S Main St",
+    "phone": "(248) 800-6629",
+    "address": "116 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -899,7 +909,7 @@ window.DOWNTOWN_BUSINESSES = [
     "name": "Tease Salon",
     "description": "Full-service hair salon offering cuts, color, styling, and nail services",
     "phone": "(248) 585-6008",
-    "address": "18 S Main St",
+    "address": "38 N Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://teaseclawson.com",
     "facebook": "https://www.facebook.com/profile.php?id=100093870969534",
@@ -908,14 +918,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Stores & Shops"
     ],
-    "lat": 42.533954,
-    "lng": -83.14586
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Dr. Bruce Millman",
     "description": "Pulmonary medicine",
-    "phone": "",
-    "address": "31 S Main St",
+    "phone": "(248) 965-4165",
+    "address": "141 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://www.drbrucemillman.com/",
     "facebook": "",
@@ -931,7 +941,7 @@ window.DOWNTOWN_BUSINESSES = [
     "name": "Lifetime Dental",
     "description": "Full-service dental practice established in 1987, offering family dentistry, dental implants, same-day crowns, Invisalign, and cosmetic services",
     "phone": "(248) 588-6565",
-    "address": "431 W 14 Mile Rd",
+    "address": "17 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://www.lifetimedental-clawson.com",
     "facebook": "",
@@ -940,13 +950,13 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Service & Professional"
     ],
-    "lat": 42.5330532,
-    "lng": -83.1459076
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Sasenarine S Persaud, MD",
     "description": "Internal medicine, Corewell Health",
-    "phone": "",
+    "phone": "(248) 577-0600",
     "address": "314 N Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://providers.corewellhealth.org/provider/sasenarine-s-persaud/3186661",
@@ -963,7 +973,7 @@ window.DOWNTOWN_BUSINESSES = [
     "name": "S4 Advertising",
     "description": "Full service marketing & advertising agency, where strategy, technology and innovation come together",
     "phone": "(248) 221-2324",
-    "address": "17 N Main St",
+    "address": "110 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://www.s4connectteam.com",
     "facebook": "https://www.facebook.com/S4Connect",
@@ -972,14 +982,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Service & Professional"
     ],
-    "lat": 42.5324347,
-    "lng": -83.1467244
+    "lat": null,
+    "lng": null
   },
   {
     "name": "American Flag & Banner Co.",
     "description": "Standard and custom flags, banners & accessories",
     "phone": "(248) 288-3010",
-    "address": "401 E 14 Mile Rd",
+    "address": "32 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://www.americanflagandbanner.net/",
     "facebook": "https://www.facebook.com/AmericanFlagAndBanner/photos",
@@ -988,14 +998,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Service & Professional"
     ],
-    "lat": 42.5328742,
-    "lng": -83.1465551
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Michigan Family Orthodontics",
     "description": "Orthodontic treatment for children and adults",
-    "phone": "",
-    "address": "313 W 14 Mile Rd",
+    "phone": "(248) 288-3579",
+    "address": "11 W 14 Mile Rd #204",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -1008,10 +1018,10 @@ window.DOWNTOWN_BUSINESSES = [
     "lng": null
   },
   {
-    "name": "Jet's Business Office",
-    "description": "Corporate office for Jet's Pizza franchise",
-    "phone": "",
-    "address": "375 W 14 Mile Rd",
+    "name": "Jet's Pizza",
+    "description": "Jet's Pizza Store",
+    "phone": "(248) 288-4488",
+    "address": "230 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -1023,6 +1033,7 @@ window.DOWNTOWN_BUSINESSES = [
     "lat": null,
     "lng": null
   },
+  /*
   {
     "name": "Liberty Insurance Agency",
     "description": "Insurance services",
@@ -1039,11 +1050,12 @@ window.DOWNTOWN_BUSINESSES = [
     "lat": null,
     "lng": null
   },
+  */
   {
     "name": "Clawson Auto Sales",
     "description": "Sale and purchase of quality automobiles, trucks and SUV's",
-    "phone": "(248) 965-3244",
-    "address": "901 W 14 Mile Rd",
+    "phone": "(248) 694-8620",
+    "address": "62 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://www.clawsonauto.com",
     "facebook": "https://www.facebook.com/clawsonautosale/",
@@ -1052,9 +1064,10 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Service & Professional"
     ],
-    "lat": 42.5337944,
-    "lng": -83.1474574
+    "lat": null,
+    "lng": null
   },
+  /*
   {
     "name": "Biland & Cashmire, DDS",
     "description": "General and cosmetic dental practice",
@@ -1071,11 +1084,12 @@ window.DOWNTOWN_BUSINESSES = [
     "lat": null,
     "lng": null
   },
+  */
   {
     "name": "Ryan Cabinetry",
-    "description": "Michigan-based design house and distributor of AyA Kitchens, specializing in new developments, remodels, and multi-unit projects.",
+    "description": "Michigan-based design house and distributor of AyA Kitchens",
     "phone": "(248) 616-3900",
-    "address": "1210 W 14 Mile Rd",
+    "address": "30 N Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://www.ayakitchens.com",
     "facebook": "https://www.facebook.com/ayakitchens",
@@ -1084,14 +1098,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Service & Professional"
     ],
-    "lat": 42.5338949,
-    "lng": -83.1459495
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Clawson Care Pharmacy",
     "description": "Full service independent pharmacy",
     "phone": "(248) 439-2400",
-    "address": "420 W 14 Mile Rd",
+    "address": "117 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://www.clawsonrx.com",
     "facebook": "https://www.facebook.com/clawsonrx/",
@@ -1100,14 +1114,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Service & Professional"
     ],
-    "lat": 42.5331274,
-    "lng": -83.1484207
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Fraternal Order of Eagles - Clawson Aerie",
     "description": "Civic and charitable organization",
     "phone": "(248) 585-8282",
-    "address": "124 W 14 Mile Rd",
+    "address": "174 Bowers St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "https://www.facebook.com/pages/Fraternal-Order-of-Eagles/109320745774807",
@@ -1116,14 +1130,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Service & Professional"
     ],
-    "lat": 42.5342168,
-    "lng": -83.1440018
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Gerber Collision & Glass",
     "description": "Auto and auto glass repair",
     "phone": "(248) 435-5850",
-    "address": "909 W 14 Mile Rd",
+    "address": "165 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://www.collexcollision.com",
     "facebook": "",
@@ -1132,14 +1146,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Service & Professional"
     ],
-    "lat": 42.5331597,
-    "lng": -83.1492793
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Liberty Tax Service",
     "description": "Financial & tax consultants",
-    "phone": "(248) 288-3000",
-    "address": "431 W 14 Mile Rd",
+    "phone": "(248) 602-2398",
+    "address": "17 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -1148,14 +1162,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Service & Professional"
     ],
-    "lat": 42.5332888,
-    "lng": -83.1466166
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Noar Technologies",
-    "description": "Technology solutions for architecture, engineering, and construction industries, offering drone services, 3D laser scanning, and Autodesk software solutions",
+    "description": "Technology solutions for architecture, engineering, and construction industries",
     "phone": "(248) 906-2375",
-    "address": "19 S Main St",
+    "address": "303 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://www.noartechnologies.com/",
     "facebook": "",
@@ -1164,14 +1178,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Service & Professional"
     ],
-    "lat": 42.5337654,
-    "lng": -83.1425148
+    "lat": null,
+    "lng": null
   },
   {
     "name": "S & H Investments",
     "description": "Property management",
     "phone": "(248) 280-4604",
-    "address": "21 S Main St",
+    "address": "11 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -1180,14 +1194,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Service & Professional"
     ],
-    "lat": 42.5331875,
-    "lng": -83.1465569
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Ray Blaszczak, CPA",
     "description": "Tax preparation and accounting services for individuals and small businesses",
     "phone": "(248) 435-9460",
-    "address": "11 S Main St",
+    "address": "11 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
@@ -1196,14 +1210,14 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Service & Professional"
     ],
-    "lat": 42.5331875,
-    "lng": -83.1465569
+    "lat": null,
+    "lng": null
   },
   {
     "name": "Clawson Internist",
     "description": "Internal medicine practice led by Dr. Hina S. Doshi, affiliated with Corewell Health Beaumont, providing primary care for adults",
     "phone": "(248) 588-5338",
-    "address": "420 W 14 Mile Rd",
+    "address": "21 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://doctors.beaumont.org/provider/Hina+S+Doshi/224139",
     "facebook": "",
@@ -1212,7 +1226,7 @@ window.DOWNTOWN_BUSINESSES = [
     "categories": [
       "Service & Professional"
     ],
-    "lat": 42.5330101,
-    "lng": -83.1458239
+    "lat": null,
+    "lng": null
   }
 ];
