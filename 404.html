@@ -3,11 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Business Directory | Downtown Clawson</title>
-  <meta
-    name="description"
-    content="Browse Downtown Clawson businesses by category and search the directory for dining, shopping, beauty, and services."
-  />
+  <title>Page Not Found | Downtown Clawson</title>
+  <meta name="description" content="The page you're looking for isn't here. Browse Downtown Clawson businesses, events, and DDA information." />
   <link rel="stylesheet" href="assets/css/styles.css" />
   <link rel="icon" href="images/brand-mark.svg.png" type="image/png" />
 </head>
@@ -28,7 +25,7 @@
         <nav id="site-nav" class="site-nav" data-nav aria-label="Primary">
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="business-directory.html" aria-current="page">Business Directory</a></li>
+            <li><a href="business-directory.html">Business Directory</a></li>
             <li><a href="happenings.html">Happenings</a></li>
             <li><a href="about-dda.html">About DDA</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -46,53 +43,31 @@
   <main id="main">
     <section class="page-head">
       <div class="shell">
-        <h1>Business Directory</h1>
-        <p>
-          About 80 businesses along Main Street and 14 Mile Road. Restaurants, shops, salons, and professional
-          services. Search by name or filter by category.
-        </p>
+        <h1>Page Not Found</h1>
+        <p>We couldn't find that page. It may have moved or the link may be outdated. Here are some places to start:</p>
       </div>
     </section>
 
     <section class="section section-top-tight">
       <div class="shell">
-        <div class="tools" aria-label="Directory filters">
-          <div>
-            <label for="business-search">Search businesses</label>
-            <input id="business-search" type="search" placeholder="Search by name, type, or keyword" data-business-search />
-          </div>
-          <div>
-            <label for="business-category">Category</label>
-            <select id="business-category" data-business-category>
-              <option value="">All Categories</option>
-            </select>
-          </div>
-          <div>
-            <label for="business-sort">Sort</label>
-            <select id="business-sort" data-business-sort>
-              <option value="alpha">A to Z</option>
-              <option value="category">Category then Name</option>
-            </select>
-          </div>
-        </div>
+        <div class="quick-links">
+          <article class="quick-card reveal">
+            <h3>Happenings</h3>
+            <p>Annual events, Saturday Clawson Market dates, and Restaurant Week updates.</p>
+            <a href="happenings.html">View Happenings</a>
+          </article>
 
-        <div class="dir-layout">
-          <section>
-            <p class="dir-summary" data-business-count>Loading businesses...</p>
-            <div class="cards" data-business-grid></div>
-          </section>
+          <article class="quick-card reveal">
+            <h3>Business Directory</h3>
+            <p>Browse dining, retail, services, and wellness businesses in downtown Clawson.</p>
+            <a href="business-directory.html">Browse Directory</a>
+          </article>
 
-          <aside class="map-card">
-            <h2>Visit Downtown</h2>
-            <p>Use this map to get directions to downtown Clawson.</p>
-            <iframe
-              title="Map of Downtown Clawson"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps?q=14+Mile+Rd+and+Main+St,+Clawson,+MI&output=embed"
-            ></iframe>
-            <p class="notice">Municipal parking lots are available throughout downtown.</p>
-          </aside>
+          <article class="quick-card reveal">
+            <h3>About the DDA</h3>
+            <p>Learn about the Downtown Development Authority, meetings, and how to get involved.</p>
+            <a href="about-dda.html">About DDA</a>
+          </article>
         </div>
       </div>
     </section>
@@ -127,13 +102,11 @@
   </footer>
 
   <nav class="mobile-actions" aria-label="Quick actions">
-    <a href="business-directory.html" aria-current="page">Directory</a>
+    <a href="business-directory.html">Directory</a>
     <a href="happenings.html">Happenings</a>
     <a href="contact.html">Contact</a>
   </nav>
 
   <script src="assets/js/site.js" defer></script>
-  <script src="data/businesses.js" defer></script>
-  <script src="assets/js/directory.js" defer></script>
 </body>
 </html>

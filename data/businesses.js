@@ -65,23 +65,23 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Green Light",
-    "description": "Downtown Clawson food and beverage business.",
+    "description": "Body piercing studio",
     "phone": "",
     "address": "26 N Main St",
     "cityStateZip": "Clawson, MI 48017",
-    "website": "",
+    "website": "https://www.greenlightbodypiercing.com/",
     "facebook": "",
     "instagram": "",
     "publicEmail": "",
     "categories": [
-      "Food & Drink"
+      "Stores & Shops"
     ],
     "lat": null,
     "lng": null
   },
   {
     "name": "Armando's Pizza",
-    "description": "Downtown Clawson food and beverage business.",
+    "description": "Pizza shop",
     "phone": "",
     "address": "334 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
@@ -97,7 +97,7 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Red & The Wolf",
-    "description": "Downtown Clawson food and beverage business.",
+    "description": "Restaurant and bar",
     "phone": "",
     "address": "1 S Main St",
     "cityStateZip": "Clawson, MI 48017",
@@ -118,8 +118,8 @@ window.DOWNTOWN_BUSINESSES = [
     "address": "34 N Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://noorichicken.com/",
-    "facebook": "https://www.facebook.com/search/top?q=noori%20chicken%20clawson",
-    "instagram": "",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/nooripocha/",
     "publicEmail": "",
     "categories": [
       "Food & Drink"
@@ -145,7 +145,7 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Fairway Packing Co.",
-    "description": "Downtown Clawson food and beverage business.",
+    "description": "Specialty meats and provisions",
     "phone": "",
     "address": "14 N Main St",
     "cityStateZip": "Clawson, MI 48017",
@@ -193,12 +193,12 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Woodpile BBQ Shack",
-    "description": "Downtown Clawson food and beverage business.",
+    "description": "Barbecue restaurant",
     "phone": "",
     "address": "52 N Main St",
     "cityStateZip": "Clawson, MI 48017",
-    "website": "",
-    "facebook": "",
+    "website": "https://woodpilebbqshack.com",
+    "facebook": "https://www.facebook.com/woodpilebbqshack",
     "instagram": "",
     "publicEmail": "",
     "categories": [
@@ -209,7 +209,7 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "French Toast Bistro",
-    "description": "Downtown Clawson food and beverage business.",
+    "description": "Breakfast and brunch restaurant",
     "phone": "",
     "address": "42 N Main St",
     "cityStateZip": "Clawson, MI 48017",
@@ -225,7 +225,7 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Italian Restaurant (Italian American Club)",
-    "description": "Downtown Clawson food and beverage business.",
+    "description": "Italian dining at the Italian American Club",
     "phone": "",
     "address": "121 S Main St",
     "cityStateZip": "Clawson, MI 48017",
@@ -241,7 +241,7 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Dairy-O",
-    "description": "Downtown Clawson food and beverage business.",
+    "description": "Soft-serve ice cream and frozen treats",
     "phone": "",
     "address": "21 S Main St",
     "cityStateZip": "Clawson, MI 48017",
@@ -263,7 +263,7 @@ window.DOWNTOWN_BUSINESSES = [
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://gussnug.com",
     "facebook": "https://www.facebook.com/gussnug",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/gussnug/",
     "publicEmail": "",
     "categories": [
       "Food & Drink"
@@ -273,29 +273,13 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Whiskey Taco Foxtrot",
-    "description": "Downtown Clawson food and beverage business.",
+    "description": "Taqueria and whiskey bar serving unique tacos and artfully crafted cocktails",
     "phone": "",
     "address": "56 N Main St",
     "cityStateZip": "Clawson, MI 48017",
-    "website": "",
-    "facebook": "",
-    "instagram": "",
-    "publicEmail": "",
-    "categories": [
-      "Food & Drink"
-    ],
-    "lat": null,
-    "lng": null
-  },
-  {
-    "name": "Mad Matcha",
-    "description": "Downtown Clawson food and beverage business.",
-    "phone": "",
-    "address": "7 N Main St",
-    "cityStateZip": "Clawson, MI 48017",
-    "website": "",
-    "facebook": "",
-    "instagram": "",
+    "website": "https://whiskeytacofoxtrotclawson.com",
+    "facebook": "https://www.facebook.com/wtfclawson",
+    "instagram": "https://www.instagram.com/wtfclawson/",
     "publicEmail": "",
     "categories": [
       "Food & Drink"
@@ -321,7 +305,7 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Eat Well Meal Prep",
-    "description": "Downtown Clawson food and beverage business.",
+    "description": "Prepared meals for order and pickup",
     "phone": "",
     "address": "31 N Main St",
     "cityStateZip": "Clawson, MI 48017",
@@ -369,11 +353,11 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Ophema",
-    "description": "Downtown Clawson retail or personal service business.",
+    "description": "Organic farm and juicery",
     "phone": "",
     "address": "11 S Main St",
     "cityStateZip": "Clawson, MI 48017",
-    "website": "",
+    "website": "https://gotsprouts.com/",
     "facebook": "",
     "instagram": "",
     "publicEmail": "",
@@ -433,7 +417,7 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Vintage Vault",
-    "description": "Downtown Clawson retail or personal service business.",
+    "description": "Vintage and secondhand goods",
     "phone": "",
     "address": "23 N Main St",
     "cityStateZip": "Clawson, MI 48017",
@@ -442,23 +426,23 @@ window.DOWNTOWN_BUSINESSES = [
     "instagram": "",
     "publicEmail": "",
     "categories": [
-      "Stores & Shops"
+      "Food & Drink"
     ],
     "lat": null,
     "lng": null
   },
   {
-    "name": "Sabbath",
-    "description": "Downtown Clawson retail or personal service business.",
+    "name": "Sabbath Coffee Roasters",
+    "description": "Coffee roasters",
     "phone": "",
     "address": "15 N Main St",
     "cityStateZip": "Clawson, MI 48017",
-    "website": "",
-    "facebook": "",
+    "website": "https://sabbathcoffeeroasters.com",
+    "facebook": "https://www.facebook.com/sabbathcoffeeroasters",
     "instagram": "",
     "publicEmail": "",
     "categories": [
-      "Stores & Shops"
+      "Food & Drink"
     ],
     "lat": null,
     "lng": null
@@ -474,7 +458,7 @@ window.DOWNTOWN_BUSINESSES = [
     "instagram": "https://www.instagram.com/weissdistillingco/",
     "publicEmail": "",
     "categories": [
-      "Stores & Shops"
+      "Food & Drink"
     ],
     "lat": 42.533252,
     "lng": -83.145405
@@ -513,7 +497,7 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Exclusive Nails",
-    "description": "Downtown Clawson retail or personal service business.",
+    "description": "Nail salon",
     "phone": "",
     "address": "431 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
@@ -529,7 +513,7 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Noble Village",
-    "description": "Downtown Clawson retail or personal service business.",
+    "description": "Shop on South Main",
     "phone": "",
     "address": "5 S Main St",
     "cityStateZip": "Clawson, MI 48017",
@@ -561,7 +545,7 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Blumz...by JRDesigns",
-    "description": "Downtown Clawson retail or personal service business.",
+    "description": "Florist and event design studio",
     "phone": "",
     "address": "560 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
@@ -577,7 +561,7 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Central 41",
-    "description": "Downtown Clawson retail or personal service business.",
+    "description": "Retail shop on South Main",
     "phone": "",
     "address": "41 S Main St",
     "cityStateZip": "Clawson, MI 48017",
@@ -609,13 +593,13 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Bramble & Thorne",
-    "description": "Downtown Clawson retail or personal service business.",
+    "description": "Tattoo studio",
     "phone": "",
     "address": "21 N Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
     "facebook": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/brambleandthornetattoo/",
     "publicEmail": "",
     "categories": [
       "Stores & Shops"
@@ -693,19 +677,19 @@ window.DOWNTOWN_BUSINESSES = [
     "phone": "(248) 979-3589",
     "address": "27 N Main St",
     "cityStateZip": "Clawson, MI 48017",
-    "website": "",
+    "website": "https://kahveclawson.com",
     "facebook": "https://www.facebook.com/kahvehouse/",
     "instagram": "https://www.instagram.com/kahvehouse/",
     "publicEmail": "",
     "categories": [
-      "Stores & Shops"
+      "Food & Drink"
     ],
     "lat": 42.5330381,
     "lng": -83.1463979
   },
   {
     "name": "Skate Shop",
-    "description": "Downtown Clawson retail or personal service business.",
+    "description": "Skateboard gear and accessories",
     "phone": "",
     "address": "9 N Main St",
     "cityStateZip": "Clawson, MI 48017",
@@ -742,7 +726,7 @@ window.DOWNTOWN_BUSINESSES = [
     "address": "103 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "http://www.warp9comics.com",
-    "facebook": "https://www.facebook.com/search/top?q=warp%209%20comics%20%26%20collectibles",
+    "facebook": "",
     "instagram": "https://www.instagram.com/warp9comics/?hl=en",
     "publicEmail": "",
     "categories": [
@@ -753,7 +737,7 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Eclectic Home",
-    "description": "Downtown Clawson retail or personal service business.",
+    "description": "Home goods and decor",
     "phone": "",
     "address": "25 N Main St",
     "cityStateZip": "Clawson, MI 48017",
@@ -778,7 +762,7 @@ window.DOWNTOWN_BUSINESSES = [
     "instagram": "https://instagram.com/threecatsrestaurant?fbclid=IwAR3X9lYDagy-Q6scLhGguJvL_fboSm4UVz6prZIYX0zDW6UnymP_I3gzVRQ",
     "publicEmail": "",
     "categories": [
-      "Stores & Shops"
+      "Food & Drink"
     ],
     "lat": 42.5337961,
     "lng": -83.1484417
@@ -801,23 +785,23 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "PanDeMonium",
-    "description": "Downtown Clawson retail or personal service business.",
+    "description": "Filipino food to uplift the community",
     "phone": "",
     "address": "31 N Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/pandemoniummi",
     "instagram": "",
     "publicEmail": "",
     "categories": [
-      "Stores & Shops"
+      "Food & Drink"
     ],
     "lat": null,
     "lng": null
   },
   {
     "name": "Fabricare Cleaners",
-    "description": "Downtown Clawson retail or personal service business.",
+    "description": "Dry cleaning and garment care",
     "phone": "",
     "address": "620 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
@@ -864,13 +848,13 @@ window.DOWNTOWN_BUSINESSES = [
     "lng": -83.1467246
   },
   {
-    "name": "Lewton's Hardware (Specialty / Design Center)",
-    "description": "Downtown Clawson retail or personal service business.",
+    "name": "Lewton's Sports Cards & Collectibles",
+    "description": "Sports cards and collectibles",
     "phone": "",
     "address": "35 S Main St",
     "cityStateZip": "Clawson, MI 48017",
     "website": "",
-    "facebook": "",
+    "facebook": "https://www.facebook.com/Lewtonscards",
     "instagram": "",
     "publicEmail": "",
     "categories": [
@@ -897,7 +881,7 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Moxxi Studio Sculpt",
-    "description": "Downtown Clawson retail or personal service business.",
+    "description": "Body sculpting and aesthetics studio",
     "phone": "",
     "address": "12 S Main St",
     "cityStateZip": "Clawson, MI 48017",
@@ -928,12 +912,12 @@ window.DOWNTOWN_BUSINESSES = [
     "lng": -83.14586
   },
   {
-    "name": "Dr. Bruce Millman, DDS",
-    "description": "Downtown Clawson professional or medical service business.",
+    "name": "Dr. Bruce Millman",
+    "description": "Pulmonary medicine",
     "phone": "",
     "address": "31 S Main St",
     "cityStateZip": "Clawson, MI 48017",
-    "website": "",
+    "website": "https://www.drbrucemillman.com/",
     "facebook": "",
     "instagram": "",
     "publicEmail": "",
@@ -960,12 +944,12 @@ window.DOWNTOWN_BUSINESSES = [
     "lng": -83.1459076
   },
   {
-    "name": "Beaumont Urgent Care / Medical Office",
-    "description": "Downtown Clawson professional or medical service business.",
+    "name": "Sasenarine S Persaud, MD",
+    "description": "Internal medicine, Corewell Health",
     "phone": "",
-    "address": "602 W 14 Mile Rd",
+    "address": "314 N Main St",
     "cityStateZip": "Clawson, MI 48017",
-    "website": "",
+    "website": "https://providers.corewellhealth.org/provider/sasenarine-s-persaud/3186661",
     "facebook": "",
     "instagram": "",
     "publicEmail": "",
@@ -1009,7 +993,7 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Michigan Family Orthodontics",
-    "description": "Downtown Clawson professional or medical service business.",
+    "description": "Orthodontic treatment for children and adults",
     "phone": "",
     "address": "313 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
@@ -1025,7 +1009,7 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Jet's Business Office",
-    "description": "Downtown Clawson professional or medical service business.",
+    "description": "Corporate office for Jet's Pizza franchise",
     "phone": "",
     "address": "375 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
@@ -1041,7 +1025,7 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Liberty Insurance Agency",
-    "description": "Downtown Clawson professional or medical service business.",
+    "description": "Insurance services",
     "phone": "",
     "address": "35 S Main St",
     "cityStateZip": "Clawson, MI 48017",
@@ -1073,7 +1057,7 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Biland & Cashmire, DDS",
-    "description": "Downtown Clawson professional or medical service business.",
+    "description": "General and cosmetic dental practice",
     "phone": "",
     "address": "52 N Main St",
     "cityStateZip": "Clawson, MI 48017",
