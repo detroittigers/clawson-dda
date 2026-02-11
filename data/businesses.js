@@ -795,10 +795,9 @@ window.DOWNTOWN_BUSINESSES = [
     "lat": null,
     "lng": null
   },
-  /*
   {
     "name": "PanDeMonium",
-    "description": "Filipino food to uplift the community",
+    "description": "Filipino food to uplift the community (Coming Soon)",
     "phone": "",
     "address": "84 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
@@ -812,7 +811,6 @@ window.DOWNTOWN_BUSINESSES = [
     "lat": null,
     "lng": null
   },
-  */
   {
     "name": "Fabricare Cleaners",
     "description": "Dry cleaning, laundry, alterations and repairs",
