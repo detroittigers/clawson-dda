@@ -226,8 +226,8 @@ window.EVENT_GALLERIES = [
   {
     "id": "restaurant-week",
     "title": "Clawson Restaurant Week",
-    "date": "2025",
-    "description": "Official event graphic for 2026.",
+    "date": "March 2026",
+    "description": "Clawson Restaurant Week 2026 event graphic.",
     "cover": "images/events/restaurant-week/restaurant-week-2026.png",
     "photos": [
       {

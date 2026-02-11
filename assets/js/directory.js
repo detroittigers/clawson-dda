@@ -116,29 +116,7 @@
       return Promise.resolve(window.DOWNTOWN_BUSINESSES);
     }
 
-    const candidates = [
-      "data/businesses.json",
-      "./data/businesses.json",
-      "../data/businesses.json",
-      "/data/businesses.json"
-    ];
-
-    function tryPath(index) {
-      if (index >= candidates.length) {
-        return Promise.reject(new Error("all business data paths failed"));
-      }
-
-      return fetch(candidates[index])
-        .then(function (res) {
-          if (!res.ok) throw new Error("failed " + candidates[index]);
-          return res.json();
-        })
-        .catch(function () {
-          return tryPath(index + 1);
-        });
-    }
-
-    return tryPath(0);
+    return Promise.reject(new Error("business data not loaded"));
   }
 
   loadBusinesses()

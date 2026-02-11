@@ -426,7 +426,7 @@ window.DOWNTOWN_BUSINESSES = [
     "instagram": "",
     "publicEmail": "",
     "categories": [
-      "Food & Drink"
+      "Stores & Shops"
     ],
     "lat": null,
     "lng": null
