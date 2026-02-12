@@ -1,0 +1,25 @@
+# Downtown Clawson DDA
+
+> Downtown Clawson Development Authority (DDA) official website. Independent shops, restaurants, and events along Main Street and 14 Mile Road in Clawson, Michigan. Little City, Big Heart.
+
+## Contact
+
+- Phone: 248-435-4500 ext. 110
+- Email: ddadirector@cityofclawson.com
+- Address: 425 N Main St, Clawson, MI 48017
+- Facebook: https://www.facebook.com/dtclawson/
+- Instagram: https://www.instagram.com/dtclawson
+
+## Pages
+
+- [Home](https://downtownclawson.com/)
+- [Business Directory](https://downtownclawson.com/business-directory.html): Searchable directory of ~50 downtown businesses.
+- [Happenings](https://downtownclawson.com/happenings.html): Events, market, photo galleries, Social District.
+- [Restaurant Week](https://downtownclawson.com/restaurant-week.html): March 22-28, 2026.
+- [Saturday Clawson Market](https://downtownclawson.com/saturday-clawson-market.html): 2026 market dates and vendor info.
+- [About DDA](https://downtownclawson.com/about-dda.html): Mission, board, strategic plan.
+- [Contact](https://downtownclawson.com/contact.html): Phone, email, map.
+
+## Optional
+
+- [Full details for LLMs](https://downtownclawson.com/llms-full.txt): Complete business directory, event calendar, and descriptions.

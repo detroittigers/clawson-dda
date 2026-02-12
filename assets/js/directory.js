@@ -44,7 +44,7 @@
       <article class="card business-card reveal">
         <h3>${escapeHtml(item.name)}</h3>
         <div class="biz-meta">${escapeHtml(item.address)}${item.cityStateZip ? `, ${escapeHtml(item.cityStateZip)}` : ""}</div>
-        <div class="biz-meta">${escapeHtml(item.phone)}</div>
+        <div class="biz-meta">${item.phone ? `<a href="tel:${escapeHtml(item.phone.replace(/[^+\d]/g, ''))}">${escapeHtml(item.phone)}</a>` : ""}</div>
         ${item.description ? `<p>${escapeHtml(item.description)}</p>` : ""}
         <div>${tags}</div>
         ${links ? `<div class="biz-links">${links}</div>` : ""}

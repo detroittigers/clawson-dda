@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap");
+/* Fonts loaded via <link> in HTML head for non-blocking render */
 
 :root {
   --brand-blue-900: #08157f;
@@ -1259,6 +1259,14 @@ body.gallery-open {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    animation: none;
   }
 }
 
