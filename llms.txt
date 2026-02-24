@@ -12,14 +12,14 @@
 
 ## Pages
 
-- [Home](https://downtownclawson.com/)
-- [Business Directory](https://downtownclawson.com/business-directory.html): Searchable directory of ~50 downtown businesses.
-- [Happenings](https://downtownclawson.com/happenings.html): Events, market, photo galleries, Social District.
-- [Restaurant Week](https://downtownclawson.com/restaurant-week.html): March 22-28, 2026.
-- [Saturday Clawson Market](https://downtownclawson.com/saturday-clawson-market.html): 2026 market dates and vendor info.
-- [About DDA](https://downtownclawson.com/about-dda.html): Mission, board, strategic plan.
-- [Contact](https://downtownclawson.com/contact.html): Phone, email, map.
+- [Home](https://www.downtownclawson.com/)
+- [Business Directory](https://www.downtownclawson.com/business-directory.html): Searchable directory of ~50 downtown businesses.
+- [Happenings](https://www.downtownclawson.com/happenings.html): Events, market, photo galleries, Social District.
+- [Restaurant Week](https://www.downtownclawson.com/restaurant-week.html): March 22-28, 2026.
+- [Saturday Clawson Market](https://www.downtownclawson.com/saturday-clawson-market.html): 2026 market dates and vendor info.
+- [About DDA](https://www.downtownclawson.com/about-dda.html): Mission, board, strategic plan.
+- [Contact](https://www.downtownclawson.com/contact.html): Phone, email, map.
 
 ## Optional
 
-- [Full details for LLMs](https://downtownclawson.com/llms-full.txt): Complete business directory, event calendar, and descriptions.
+- [Full details for LLMs](https://www.downtownclawson.com/llms-full.txt): Complete business directory, event calendar, and descriptions.

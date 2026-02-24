@@ -15,13 +15,13 @@ The DDA funds downtown improvements, coordinates events, and works to keep the b
 
 ## Pages
 
-- [Home](https://downtownclawson.com/): Welcome page with quick links, upcoming events, and social media connections.
-- [Business Directory](https://downtownclawson.com/business-directory.html): Searchable directory of downtown businesses with category filtering. About 50 active listings across Food & Drink, Stores & Shops, and Medical.
-- [Happenings](https://downtownclawson.com/happenings.html): Annual events, Saturday Clawson Market, Restaurant Week, photo galleries, Social District info.
-- [Restaurant Week](https://downtownclawson.com/restaurant-week.html): Clawson Restaurant Week details (March 22-28, 2026). Featured specials $15-$25, Passport stamp program, USA250 celebration.
-- [Saturday Clawson Market](https://downtownclawson.com/saturday-clawson-market.html): 2026 market dates, vendor application, location at 14 Mile and Main Street.
-- [About DDA](https://downtownclawson.com/about-dda.html): DDA mission, downtown story, board leadership, Main Street Oakland County membership, strategic plan.
-- [Contact](https://downtownclawson.com/contact.html): Direct contact info, social links, embedded map.
+- [Home](https://www.downtownclawson.com/): Welcome page with quick links, upcoming events, and social media connections.
+- [Business Directory](https://www.downtownclawson.com/business-directory.html): Searchable directory of downtown businesses with category filtering. About 50 active listings across Food & Drink, Stores & Shops, and Medical.
+- [Happenings](https://www.downtownclawson.com/happenings.html): Annual events, Saturday Clawson Market, Restaurant Week, photo galleries, Social District info.
+- [Restaurant Week](https://www.downtownclawson.com/restaurant-week.html): Clawson Restaurant Week details (March 22-28, 2026). Featured specials $15-$25, Passport stamp program, USA250 celebration.
+- [Saturday Clawson Market](https://www.downtownclawson.com/saturday-clawson-market.html): 2026 market dates, vendor application, location at 14 Mile and Main Street.
+- [About DDA](https://www.downtownclawson.com/about-dda.html): DDA mission, downtown story, board leadership, Main Street Oakland County membership, strategic plan.
+- [Contact](https://www.downtownclawson.com/contact.html): Direct contact info, social links, embedded map.
 
 ## Annual Events
 
