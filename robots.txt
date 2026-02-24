@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://downtownclawson.com/sitemap.xml
+Sitemap: https://www.downtownclawson.com/sitemap.xml
