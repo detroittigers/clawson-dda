@@ -5,7 +5,7 @@ window.DOWNTOWN_BUSINESSES = [
     "phone": "(248) 588-2660",
     "address": "278 E 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
-    "website": "https://oldportfamilydinin.wixsite.com/oldport",
+    "website": "",
     "facebook": "https://www.facebook.com/Old-Port-Family-Restaurant-268370397358313/",
     "instagram": "",
     "publicEmail": "",
@@ -261,7 +261,7 @@ window.DOWNTOWN_BUSINESSES = [
   },
   {
     "name": "Gus' Snug Irish Pub",
-    "description": "At Gus's Snug their menu tells the story of Ireland's rich history and culture.",
+    "description": "At Gus' Snug the menu tells the story of Ireland's rich history and culture.",
     "phone": "(248) 607-3631",
     "address": "38 S Main St",
     "cityStateZip": "Clawson, MI 48017",
@@ -682,12 +682,12 @@ window.DOWNTOWN_BUSINESSES = [
     "lng": null
   },
   {
-    "name": "Khave",
+    "name": "Kahve",
     "description": "Specialty coffee, tea and pastries",
     "phone": "",
     "address": "22 S Main St",
     "cityStateZip": "Clawson, MI 48017",
-    "website": "https://kahveclawson.com",
+    "website": "",
     "facebook": "https://www.facebook.com/kahvehouse/",
     "instagram": "https://www.instagram.com/kahvehouse/",
     "publicEmail": "",
@@ -788,6 +788,22 @@ window.DOWNTOWN_BUSINESSES = [
     "website": "http://www.leonandlulu.com",
     "facebook": "https://www.facebook.com/leonandlulu",
     "instagram": "https://www.instagram.com/leonandlulu/",
+    "publicEmail": "",
+    "categories": [
+      "Stores & Shops"
+    ],
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Wunderground Magic Shop",
+    "description": "Brick-and-mortar magic shop carrying tricks, books, and supplies for magicians of all levels. Open Tuesday through Saturday, noon to 6 PM.",
+    "phone": "(248) 280-5925",
+    "address": "16 S Main St",
+    "cityStateZip": "Clawson, MI 48017",
+    "website": "https://wundergroundmagicshop.com",
+    "facebook": "",
+    "instagram": "",
     "publicEmail": "",
     "categories": [
       "Stores & Shops"
