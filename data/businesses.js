@@ -298,7 +298,7 @@ window.DOWNTOWN_BUSINESSES = [
     "address": "48 W 14 Mile Rd",
     "cityStateZip": "Clawson, MI 48017",
     "website": "https://www.mojavemi.com",
-    "facebook": "https://www.facebook.com/MojaveCantinaClawson", // Fixed URL slightly to most likely one
+    "facebook": "https://www.facebook.com/MojaveCantinaClawson",
     "instagram": "https://www.instagram.com/mojavecantina/",
     "publicEmail": "",
     "categories": [
