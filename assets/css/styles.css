@@ -869,6 +869,17 @@ main {
   padding: var(--space-lg) 0 var(--space-xs);
 }
 
+.breadcrumb {
+  margin: 0 0 0.5rem;
+  font-size: 0.875rem;
+  color: var(--ink-700);
+}
+
+.breadcrumb a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 .about-page .page-head p {
   max-width: 70ch;
 }
