@@ -24,8 +24,40 @@ Static website for the Downtown Clawson Development Authority (DDA) in Clawson, 
 - No framework, no bundler, no dependencies
 
 ## Deployment
-- **Preview (S3):** `aws s3 sync . s3://clawson-dda-preview --exclude ".git/*" --exclude ".gitignore" --exclude "README.md" --exclude ".claude/*" --exclude "AGENTS.md" --exclude "CLAUDE.md" --profile ride-ready`
-- **Production:** TBD — will likely use a custom domain with S3 + CloudFront
+
+### Preview (S3)
+```
+aws s3 sync . s3://clawson-dda-preview --exclude ".git/*" --exclude ".gitignore" --exclude "README.md" --exclude ".claude/*" --exclude "AGENTS.md" --exclude "CLAUDE.md" --profile ride-ready
+```
+
+### Production (GoDaddy shared hosting via FTP)
+- **Host:** ftp.downtownclawson.com, **Port:** 21
+- **Credentials:** stored in `.claude/projects/.../memory/ftp-credentials.md`
+- FTP drops into `public_html` directly (no path prefix needed)
+- Use `lftp` — install with `brew install lftp` if not present
+
+```
+lftp -u "kevin@downtownclawson.com,PASSWORD" ftp://ftp.downtownclawson.com <<'LFTP'
+set ssl:verify-certificate false
+set xfer:clobber true
+mirror --reverse --ignore-time \
+  --exclude-glob .git/ \
+  --exclude .gitignore \
+  --exclude README.md \
+  --exclude CLAUDE.md \
+  --exclude AGENTS.md \
+  --exclude-glob .claude/ \
+  --exclude-glob .codex/ \
+  --exclude-glob docs/ \
+  --exclude .DS_Store \
+  /Users/kevinschneider/Code/clawson-dda/ ./
+quit
+LFTP
+```
+
+**Notes:**
+- `.htaccess` on the server handles http → https redirect — do not overwrite it unless intentional
+- `wp-backup-2026-02/` contains the old WordPress files — do not delete
 - Do NOT use GitHub Pages (conflicts with rideready.app custom domain on the GitHub account)
 
 ## Content Guidelines
