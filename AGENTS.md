@@ -48,7 +48,8 @@ mirror --reverse --ignore-time \
   --exclude AGENTS.md \
   --exclude-glob .claude/ \
   --exclude-glob .codex/ \
-  --exclude-glob docs/ \
+  --exclude-glob docs/plans/ \
+  --exclude "llms*.txt" \
   --exclude .DS_Store \
   /Users/kevinschneider/Code/clawson-dda/ ./
 quit
